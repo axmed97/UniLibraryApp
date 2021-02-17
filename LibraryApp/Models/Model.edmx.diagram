@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a818a374633d4f8e83a67262b02f03ca" Name="Diagram1">
+        <EntityTypeShape EntityType="UniLibraryDbModel.Author" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniLibraryDbModel.Book" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniLibraryDbModel.Faculty" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniLibraryDbModel.Reader" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniLibraryDbModel.Reader_to_Book" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="UniLibraryDbModel.FK__Books__AuthorId__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="UniLibraryDbModel.FK__Reader_to__BookI__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="UniLibraryDbModel.FK__Reader__FacultyI__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="UniLibraryDbModel.FK__Reader_to__Reade__2F10007B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
